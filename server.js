@@ -37,13 +37,12 @@ app.get('/charities/:id', (req, res) => {
 app.get('/charities/:id/edit', (req, res) => {
 
 })
-
 //update
 app.put('/charities/:id', (req, res) => {
 
 })
 //destroy
 app.delete('/charities/:id', (req, res) => {
-  
+
 })
 app.listen(3000);
